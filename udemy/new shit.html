@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>abdulrahmankitiavi</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      body {
+        margin: 0;
+        font-family: "Merriweather", serif;
+        text-align: center;
+      }
+
+      #one {
+        color: #66bfbf;
+        font-size: 5.625rem;
+        margin: 50px auto 0 auto;
+        font-family: "Sacramento", cursive;
+        animation: fadeIn 3s ease-in-out;
+      }
+
+      #two {
+        color: #66bfbf;
+        font-family: "Montserrat", sans-serif;
+        font-size: 2.5rem;
+        font-weight: normal;
+        padding-bottom: 10px;
+        animation: fadeIn 4s ease-in-out;
+      }
+
+      .top-container {
+        background-color: #e4f9f5;
+        padding-top: 100px;
+        position: relative;
+        animation: slideInFromTop 2s ease-out;
+      }
+
+      .top-cloud {
+        position: absolute;
+        right: 300px;
+        top: 40px;
+        animation: floatClouds 5s infinite alternate;
+      }
+
+      .bottom-cloud {
+        position: absolute;
+        left: 250px;
+        bottom: 300px;
+        animation: floatClouds 6s infinite alternate-reverse;
+      }
+
+      .mountain {
+        width: 100%;
+        max-width: 600px;
+        animation: slideInFromBottom 2.5s ease-out;
+      }
+
+      /* Animations */
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      @keyframes slideInFromTop {
+        from {
+          transform: translateY(-100%);
+          opacity: 0;
+        }
+        to {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+
+      @keyframes slideInFromBottom {
+        from {
+          transform: translateY(100%);
+          opacity: 0;
+        }
+        to {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+
+      @keyframes floatClouds {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(20px);
+        }
+      }
+    </style>
+  </head>
+  <body class="w3-light-grey">
+    <div class="top-container">
+      <img class="top-cloud" src="./cloud.png" alt="cloud">
+      <div class="title-text">
+        <h1 id="one">I'm Abdulrahman.</h1>
+        <h2 id="two">a <span class="pro">pro</span>grammer and software developer.</h2>
+      </div>
+      <img class="bottom-cloud" src="./cloud.png" alt="cloud">
+      <img class="mountain" src="./mountain.png" alt="mountain-img">
+    </div>
+   <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="./abdul.jpg" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+            <h2>Abdulrahman Juma</h2>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Web Developer</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Nairobi, KENYA</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>abdulrahmankitiavi@gmail.com</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>+254-1050-39697</p>
+          <hr>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+          <p>Adobe Photoshop</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">80%</div>
+          </div>
+          <p>Photography</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
+              <div class="w3-center w3-text-white">80%</div>
+            </div>
+          </div>
+          <p>Graphic Design</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+          </div>
+          <p>Digital Marketing</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
+          </div>
+          <p>web development</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:70%">70%</div>
+          </div>
+          <br>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+          <p>English</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+          </div>
+          <p>KISWAHILI</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:55%"></div>
+          </div>
+          <p>GERMAN</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></div>
+          </div>
+          <p>C++</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:85%"></div>
+          </div><p>HTML</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:90%"></div>
+          </div>
+          <p>JAVASCRIPT</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:89%"></div>
+          </div><p>CASCADING STYLE SHEET</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+          </div>
+          <br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+<div class="w3-twothird">
+
+    <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16">
+            <i class="fa fa-user fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>About Me
+        </h2>
+        <div class="w3-container">
+            <p>I am Abdulrahman, a skilled web developer and software programmer with a passion for multimedia. I have extensive experience in WordPress development and am proficient in PHP, HTML, CSS, JavaScript, and MySQL. I specialize in creating and customizing themes and plugins, optimizing website performance, and ensuring secure, scalable, and responsive designs. I have a strong understanding of SEO principles and web performance, which allows me to deliver user-friendly and engaging digital solutions. Additionally, I excel at troubleshooting, debugging, and integrating APIs to ensure seamless functionality. With expertise in version control systems like Git, I am dedicated to building innovative and reliable multimedia platforms.</p>
+        </div>
+    </div>
+
+    <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16">
+            <i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience
+        </h2>
+        <div class="w3-container">
+            <h5 class="w3-opacity"><b>Front End Developer / Lenex</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Nov 2024 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+            <p>Currently working at Lenex, where I specialize in front-end development, creating dynamic and user-friendly web interfaces for a wide range of clients.</p>
+            <hr>
+        </div>
+        <div class="w3-container">
+            <h5 class="w3-opacity"><b>Web Designer / Marian Estate Agency</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2023</h6>
+            <p>Designed and developed websites for real estate listings, focusing on enhancing user experience and creating visually appealing layouts.</p>
+            <hr>
+        </div>
+        <div class="w3-container">
+            <h5 class="w3-opacity"><b>Phone Repair Specialist / HQ</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2022</h6>
+            <p>Repaired and maintained mobile phones, providing excellent service and solutions for hardware and software-related issues.</p><br>
+        </div>
+    </div>
+
+    <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16">
+            <i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education
+        </h2>
+        <div class="w3-container">
+            <h5 class="w3-opacity"><b>Mudasa Academy</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>High School</h6>
+            <p>Completed high school education, where I developed a passion for technology and problem-solving.</p>
+            <hr>
+        </div>
+        <div class="w3-container">
+            <h5 class="w3-opacity"><b>Multimedia University</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Bachelors Degree in Mathematics and Computer Science</h6>
+            <p>Earned a degree in Mathematics and Computer Science, focusing on software development, programming, and advanced mathematical techniques.</p><br>
+        </div>
+    </div>
+
+</div>
+<!-- End Right Column -->
+
+</div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+    <p>Find me on social media.</p>
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+   <p class="w3-small">This website was made with Nexel & CO . Make your own Website today</p>
+   <a class="w3-button w3-round-xxlarge w3-small w3-light-grey w3-margin-bottom" href="./contact.html" target="_blank">Start now</a> <!-- End footer -->
+   </footer>
+  </body>
+  </html>
